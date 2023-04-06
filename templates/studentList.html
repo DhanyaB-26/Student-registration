@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info Mangament | All Students</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='Liststyle.css')}}"/>
+</head>
+<body>
+    <header>Data of all the Students</header>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Contact Number</th>
+            <th>Roll Number</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Address</th>
+        </tr>
+        {% for student in students %}
+        <tr>
+            <td>{{student[1]}}</td>
+            <td>{{student[2]}}</td>
+            <td>{{student[3]}}</td>
+            <td>{{student[4]}}</td>
+            <td>{{student[5]}}</td>
+            <td>{{student[6]}}</td>
+            <td>{{student[7]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wnameth=device-wnameth, initial-scale=1.0">
+    <title>Student Info Management | Registration</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'Formstyle.css')}}"/>
+</head>
+<body>
+    <div class="registration-form">
+        <form method="post" action="">
+            <input type="text" class= "input-field" placeholder="First Name" name="firstName" required/><br>
+            <input type="text"  class= "input-field" placeholder="Last Name" name="lastName" required/><br>
+            <input type="number"  class= "input-field" placeholder="Contact Number" name="phone" required/><br>
+            <input type="number"  class= "input-field" name="rollNo" placeholder="Roll Number" required><br>
+            <input type="email"   class= "input-field" name="email" placeholder="Email" required><br>
+            <input type="date"  class= "input-field" placeholder="DOB" name="dob" required/><br>
+            <textarea name="address" class = "text-area" placeholder="Address " required></textarea><br><br>
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>   
+    </div>
+</body>
+</html>

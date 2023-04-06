@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Prompt:wght@300&family=Raleway:wght@300&family=Roboto+Mono:wght@300&display=swap');
+*{
+    background-color: blueviolet;
+    font-family: 'Montserrat';
+    color : black;
+    font-weight: bold;
+}
+
+body{
+    display:grid;
+    margin-top: 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+header{
+    font-size: 38px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+}
+
+table{
+    background-color: rgba(255, 247, 247, 0.945);
+}
+
+tr{
+    padding: 10px;
+    border : 5px white solid;
+}
+
+th{
+    padding: 10px;
+    background-color: beige;
+    border: 5px beige solid;
+    color: black;
+    font-weight: 700;
+}
+
+td{
+    padding: 10px;
+}
+
